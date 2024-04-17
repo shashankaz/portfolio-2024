@@ -44,7 +44,7 @@ const Skills = () => {
         <div className="flex md:gap-[30px] gap-[20px] flex-wrap items-center justify-center mx-5">
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px]"
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px]"
           >
             <div className="md:text-7xl text-6xl">
               <FaHtml5 />
@@ -53,7 +53,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <FaCss3Alt />
@@ -62,7 +62,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <IoLogoJavascript />
@@ -71,7 +71,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <SiTailwindcss />
@@ -80,7 +80,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <SiTypescript />
@@ -89,7 +89,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <FaReact />
@@ -98,7 +98,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <TbBrandNextjs />
@@ -107,7 +107,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <FaNodeJs />
@@ -116,7 +116,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <SiExpress />
@@ -125,7 +125,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <SiMongodb />
@@ -134,7 +134,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <SiMysql />
@@ -143,7 +143,7 @@ const Skills = () => {
           </div>
           <div
             id="stack"
-            className="flex flex-col items-center justify-center border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
+            className="flex flex-col items-center justify-center hover:scale-110 cursor-pointer transition-all shadow shadow-white border-2 p-4 rounded-[20px] md:w-[150px] w-[130px] "
           >
             <div className="md:text-7xl text-6xl">
               <FaGitAlt />

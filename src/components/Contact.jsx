@@ -9,7 +9,7 @@ const Contact = () => {
           <h1 className="md:text-6xl text-5xl font-[600]">Contact Me</h1>
         </div>
         <div>
-          <h2 className="md:text-4xl text-3xl w-[400px] text-center mt-8">
+          <h2 className="md:text-4xl text-2xl md:w-[400px] text-center mt-8 mx-5">
             You can get in touch with me via{" "}
             <a
               className="text-[#999] hover:text-[#eee]"

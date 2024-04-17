@@ -11,11 +11,14 @@ const About = () => {
         <h1 className="md:text-6xl text-5xl font-[600]">About me</h1>
       </div>
       <div>
-        <p className="max-w-[400px] flex flex-wrap text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-          aliquam eius, tenetur mollitia atque, quis doloribus, odio ad
-          temporibus cum cupiditate animi vitae fugiat distinctio consequatur.
-          Iusto explicabo numquam laboriosam?
+        <p className="md:max-w-[650px] max-w-full text-lg flex flex-wrap text-center mx-5">
+          My name is Shashank, and I'm a dedicated programmer who thrives on
+          learning and exploring new technologies. I have a quick learning curve
+          and a self-driven attitude towards mastering various aspects of web
+          application development. My core expertise lies in JavaScript, and I'm
+          passionate about using it to create innovative solutions. I enjoy
+          problem-solving and am open to exciting opportunities that align with
+          my skills and interests in the tech world.
         </p>
       </div>
     </div>

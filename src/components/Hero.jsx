@@ -1,6 +1,10 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { SiCodechef } from "react-icons/si";
+import { SiCodeforces } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 import user from "../assets/cover.jpg";
 
 const Hero = () => {
@@ -11,9 +15,12 @@ const Hero = () => {
         id="hero"
       >
         <div id="left">
-          <div id="box">
+          <div
+            className="md:w-[350px] md:h-[350px] overflow-hidden w-[250px] h-[250px] rounded-full"
+            id="box"
+          >
             <img
-              className="md:w-[350px] md:h-[350px] w-[250px] h-[250px] object-cover grayscale bg-white rounded-full"
+              className="md:w-[350px] md:h-[350px] hover:scale-110 transition-all grayscale-0 md:grayscale hover:grayscale-0 cursor-pointer delay-150 w-[250px] h-[250px] object-cover bg-white rounded-full"
               src={user}
               alt=""
             />
@@ -37,7 +44,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="flex gap-3 mt-3">
-            <button className="text-2xl">
+            <button className="md:text-3xl text-2xl hover:scale-110">
               <a
                 href="https://www.linkedin.com/in/shashankaz/"
                 rel="noreferrer"
@@ -46,13 +53,49 @@ const Hero = () => {
                 <FaLinkedinIn />
               </a>
             </button>
-            <button className="text-2xl">
+            <button className="md:text-3xl text-2xl hover:scale-110">
               <a
                 href="https://github.com/shashankaz"
                 rel="noreferrer"
                 target="_blank"
               >
                 <FaGithub />
+              </a>
+            </button>
+            <button className="md:text-3xl text-2xl hover:scale-110">
+              <a
+                href="https://twitter.com/shashankaz"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FaXTwitter />
+              </a>
+            </button>
+            <button className="md:text-3xl text-2xl hover:scale-110">
+              <a
+                href="https://www.codechef.com/users/o_r_e_o"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <SiCodechef />
+              </a>
+            </button>
+            <button className="md:text-3xl text-2xl hover:scale-110">
+              <a
+                href="https://codeforces.com/profile/shashankaz"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <SiCodeforces />
+              </a>
+            </button>
+            <button className="md:text-3xl text-2xl hover:scale-110">
+              <a
+                href="https://leetcode.com/shashankaz/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <SiLeetcode />
               </a>
             </button>
           </div>

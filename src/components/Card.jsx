@@ -4,9 +4,9 @@ const Card = (props) => {
   return (
     <div>
       <div className="border-2 px-[30px] py-[20px] rounded-[20px] flex flex-col justify-center items-center w-[315px]">
-        <div className="w-[250px] h-[200px] rounded-[20px]">
+        <div className="w-[250px] h-[200px] rounded-[20px] overflow-hidden">
           <img
-            className="w-[250px] h-[200px] object-cover rounded-[20px]"
+            className="w-[250px] h-[200px] object-cover rounded-[20px] hover:scale-110 transition-all cursor-pointer"
             src={props.src}
             alt={props.alt}
           />
