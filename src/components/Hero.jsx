@@ -34,70 +34,72 @@ const Hero = () => {
           <h1 className="md:text-6xl text-5xl font-[600]">Shashank</h1>
           <p className="md:text-3xl text-2xl font-[600]">Frontend Developer</p>
           <div className="flex gap-3 mt-3">
-            <button className="md:w-[135px] w-[110px] py-3 border-white border-2 hover:bg-white hover:text-black transition-all delay-75 rounded-[30px] md:text-[15px] text-[14px] font-medium">
-              <a href="https://www.google.com" rel="noreferrer" target="_blank">
+            <a href="https://www.google.com" rel="noreferrer" target="_blank">
+              <button className="md:w-[135px] w-[110px] py-3 border-white border-2 hover:bg-white hover:text-black transition-all delay-75 rounded-[30px] md:text-[15px] text-[14px] font-medium">
                 Get Resume
-              </a>
-            </button>
-            <button className="md:w-[135px] w-[110px] py-3 bg-white text-black border-2  rounded-[30px] md:text-[15px] text-[14px] font-medium">
-              <a href="#contact">Contact Info</a>
-            </button>
+              </button>
+            </a>
+            <a href="#contact">
+              <button className="md:w-[135px] w-[110px] py-3 bg-white text-black border-2  rounded-[30px] md:text-[15px] text-[14px] font-medium">
+                Contact Info
+              </button>
+            </a>
           </div>
           <div className="flex gap-3 mt-3">
-            <button className="md:text-3xl text-2xl hover:scale-110">
-              <a
-                href="https://www.linkedin.com/in/shashankaz/"
-                rel="noreferrer"
-                target="_blank"
-              >
+            <a
+              href="https://www.linkedin.com/in/shashankaz/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="md:text-3xl text-2xl hover:scale-110">
                 <FaLinkedinIn />
-              </a>
-            </button>
-            <button className="md:text-3xl text-2xl hover:scale-110">
-              <a
-                href="https://github.com/shashankaz"
-                rel="noreferrer"
-                target="_blank"
-              >
+              </button>
+            </a>
+            <a
+              href="https://github.com/shashankaz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="md:text-3xl text-2xl hover:scale-110">
                 <FaGithub />
-              </a>
-            </button>
-            <button className="md:text-3xl text-2xl hover:scale-110">
-              <a
-                href="https://twitter.com/shashankaz"
-                rel="noreferrer"
-                target="_blank"
-              >
+              </button>
+            </a>
+            <a
+              href="https://twitter.com/shashankaz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="md:text-3xl text-2xl hover:scale-110">
                 <FaXTwitter />
-              </a>
-            </button>
-            <button className="md:text-3xl text-2xl hover:scale-110">
-              <a
-                href="https://www.codechef.com/users/o_r_e_o"
-                rel="noreferrer"
-                target="_blank"
-              >
+              </button>
+            </a>
+            <a
+              href="https://www.codechef.com/users/o_r_e_o"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="md:text-3xl text-2xl hover:scale-110">
                 <SiCodechef />
-              </a>
-            </button>
-            <button className="md:text-3xl text-2xl hover:scale-110">
-              <a
-                href="https://codeforces.com/profile/shashankaz"
-                rel="noreferrer"
-                target="_blank"
-              >
+              </button>
+            </a>
+            <a
+              href="https://codeforces.com/profile/shashankaz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="md:text-3xl text-2xl hover:scale-110">
                 <SiCodeforces />
-              </a>
-            </button>
-            <button className="md:text-3xl text-2xl hover:scale-110">
-              <a
-                href="https://leetcode.com/shashankaz/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              </button>
+            </a>
+            <a
+              href="https://leetcode.com/shashankaz/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="md:text-3xl text-2xl hover:scale-110">
                 <SiLeetcode />
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>

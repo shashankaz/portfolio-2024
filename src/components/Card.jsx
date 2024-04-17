@@ -17,16 +17,16 @@ const Card = (props) => {
           {props.stack}
         </p>
         <div className="flex justify-between w-full">
-          <button className="w-[120px] border-2 rounded-[20px] py-2 md:text-[17px] text-[15px] hover:bg-white hover:text-black transition-all delay-75">
-            <a href={props.github} target="_blank" rel="noreferrer">
+          <a href={props.github} target="_blank" rel="noreferrer">
+            <button className="w-[120px] border-2 rounded-[20px] py-2 md:text-[17px] text-[15px] hover:bg-white hover:text-black transition-all delay-75">
               Github
-            </a>
-          </button>
-          <button className="w-[120px] border-2 rounded-[20px] py-2 md:text-[17px] text-[15px] hover:bg-white hover:text-black transition-all delay-75">
-            <a href={props.live} target="_blank" rel="noreferrer">
+            </button>
+          </a>
+          <a href={props.live} target="_blank" rel="noreferrer">
+            <button className="w-[120px] border-2 rounded-[20px] py-2 md:text-[17px] text-[15px] hover:bg-white hover:text-black transition-all delay-75">
               Live demo
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </div>

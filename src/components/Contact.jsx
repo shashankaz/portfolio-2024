@@ -47,60 +47,60 @@ const Contact = () => {
           </h2>
         </div>
         <div className="flex flex-wrap gap-3 mt-[30px] mx-5 items-center justify-center">
-          <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
-            <a
-              href="https://www.linkedin.com/in/shashankaz/"
-              rel="noreferrer"
-              target="_blank"
-            >
+          <a
+            href="https://www.linkedin.com/in/shashankaz/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
               <FaLinkedinIn />
-            </a>
-          </button>
-          <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
-            <a
-              href="https://github.com/shashankaz"
-              rel="noreferrer"
-              target="_blank"
-            >
+            </button>
+          </a>
+          <a
+            href="https://github.com/shashankaz"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
               <FaGithub />
-            </a>
-          </button>
-          <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
-            <a
-              href="https://twitter.com/shashankaz"
-              rel="noreferrer"
-              target="_blank"
-            >
+            </button>
+          </a>
+          <a
+            href="https://twitter.com/shashankaz"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
               <FaXTwitter />
-            </a>
-          </button>
-          <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
-            <a
-              href="https://www.codechef.com/users/o_r_e_o"
-              rel="noreferrer"
-              target="_blank"
-            >
+            </button>
+          </a>
+          <a
+            href="https://www.codechef.com/users/o_r_e_o"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
               <SiCodechef />
-            </a>
-          </button>
-          <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
-            <a
-              href="https://codeforces.com/profile/shashankaz"
-              rel="noreferrer"
-              target="_blank"
-            >
+            </button>
+          </a>
+          <a
+            href="https://codeforces.com/profile/shashankaz"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
               <SiCodeforces />
-            </a>
-          </button>
-          <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
-            <a
-              href="https://leetcode.com/shashankaz/"
-              rel="noreferrer"
-              target="_blank"
-            >
+            </button>
+          </a>
+          <a
+            href="https://leetcode.com/shashankaz/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="md:text-3xl text-2xl flex justify-center items-center h-[50px] w-[50px] rounded-full bg-[#777] hover:bg-white hover:text-[#0F172A]">
               <SiLeetcode />
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </div>
