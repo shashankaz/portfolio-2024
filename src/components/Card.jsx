@@ -13,7 +13,7 @@ const Card = (props) => {
         </div>
         <h1 className="md:text-3xl text-2xl py-4 font-[600]">{props.title}</h1>
         <p className="text-sm pb-4">{props.desc}</p>
-        <p className="text-sm pb-4 text-gray-400 w-full items-start">
+        <p className="text-sm pb-4 text-gray-400 w-full items-start italic">
           {props.stack}
         </p>
         <div className="flex justify-between w-full">

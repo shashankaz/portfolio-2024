@@ -11,8 +11,19 @@ body {
 #nav,
 #hero,
 #about,
+#education,
 #tech,
 #projects,
 #contact {
   scroll-snap-align: start;
+}
+
+::-moz-selection {
+  color: #0f172a;
+  background: #fff;
+}
+
+::selection {
+  color: #0f172a;
+  background: #fff;
 }

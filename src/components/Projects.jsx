@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import data from "../data/projects.json";
-import photo from "../assets/cover.jpg"
+import photo from "../assets/cover.jpg";
 
 const Projects = () => {
   return (

@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { SiCodechef } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
-import user from "../assets/cover.jpg";
+import profile from "../assets/profile.jpeg";
 
 const Hero = () => {
   return (
@@ -20,8 +20,8 @@ const Hero = () => {
             id="box"
           >
             <img
-              className="md:w-[350px] md:h-[350px] hover:scale-110 transition-all grayscale-0 md:grayscale hover:grayscale-0 cursor-pointer delay-150 w-[250px] h-[250px] object-cover bg-white rounded-full"
-              src={user}
+              className="md:w-[350px] md:h-[350px] hover:scale-105 transition-all grayscale-0 md:grayscale hover:grayscale-0 cursor-pointer delay-150 w-[250px] h-[250px] object-cover bg-white rounded-full"
+              src={profile}
               alt=""
             />
           </div>
@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="flex gap-3 mt-3">
             <button className="md:w-[135px] w-[110px] py-3 border-white border-2 hover:bg-white hover:text-black transition-all delay-75 rounded-[30px] md:text-[15px] text-[14px] font-medium">
               <a href="https://www.google.com" rel="noreferrer" target="_blank">
-                Resume
+                Get Resume
               </a>
             </button>
             <button className="md:w-[135px] w-[110px] py-3 bg-white text-black border-2  rounded-[30px] md:text-[15px] text-[14px] font-medium">

@@ -16,6 +16,9 @@ const Navbar = () => {
           <li className="hover:text-[#999] transition-all delay-75">
             <a href="#about">About</a>
           </li>
+          {/* <li className="hover:text-[#999] transition-all delay-75">
+            <a href="#education">Education</a>
+          </li> */}
           <li className="hover:text-[#999] transition-all delay-75">
             <a href="#tech">Tech</a>
           </li>
