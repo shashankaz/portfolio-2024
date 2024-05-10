@@ -4,7 +4,7 @@
     "project_title": "Epic India",
     "github_link": "https://github.com/shashankaz/EpicIndia",
     "live_url": "https://epic-india.vercel.app/",
-    "image_url": "../assets/epic-india.png",
+    "image_url": "epic-india.png",
     "description": "Promoting tourism in India with interactive maps and travel guides.",
     "stack": "#nextjs #typescript #css"
   },
@@ -13,7 +13,7 @@
     "project_title": "EduNex",
     "github_link": "https://github.com/shashankaz/EduNex",
     "live_url": "https://edu-nex.vercel.app/",
-    "image_url": "../assets/epic-india.png",
+    "image_url": "edu-nex.png",
     "description": "A comprehensive platform for accessing study materials and previous year question papers.",
     "stack": "#react #javascript #css"
   },
@@ -22,7 +22,7 @@
     "project_title": "Dev Academy",
     "github_link": "https://github.com/shashankaz/dev-academy",
     "live_url": "https://dev-academy-five.vercel.app/",
-    "image_url": "../assets/epic-india.png",
+    "image_url": "dev-academy.png",
     "description": "Your gateway to comprehensive and hands-on development courses for mastering the latest technologies.",
     "stack": "#nextjs #typescript #aceternityui"
   }

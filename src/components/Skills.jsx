@@ -11,29 +11,8 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-// gsap.registerPlugin(ScrollTrigger);
 
 const Skills = () => {
-  // const comp = useRef(null);
-
-  // useEffect(() => {
-  //   const t1 = gsap.timeline();
-  //   t1.from("#stack", {
-  //     x: -100,
-  //     opacity: 0,
-  //     delay: 1,
-  //     duration: 1,
-  //     stagger: 0.2,
-  //     scrollTrigger: {
-  //       trigger: "#tech #stack",
-  //     },
-  //   });
-  // }, []);
-
   return (
     <div id="tech">
       <div className="flex flex-col justify-center items-center text-white mx-auto min-h-screen py-[50px]">

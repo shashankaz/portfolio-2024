@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import data from "../data/projects.json";
-import photo from "../assets/cover.jpg";
+import photo from "../assets/cover.png";
 
 const Projects = () => {
   return (
@@ -19,7 +19,7 @@ const Projects = () => {
                 title={data.project_title}
                 github={data.github_link}
                 live={data.live_url}
-                src={photo}
+                src={data.image_url}
                 desc={data.description}
                 stack={data.stack}
                 alt={data.title}

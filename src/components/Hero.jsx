@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { SiCodechef } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
-import profile from "../assets/profile.jpeg";
+import profile from "../assets/profile.jpg";
 
 const Hero = () => {
   return (

@@ -16,9 +16,6 @@ const Navbar = () => {
           <li className="hover:text-[#999] transition-all delay-75">
             <a href="#about">About</a>
           </li>
-          {/* <li className="hover:text-[#999] transition-all delay-75">
-            <a href="#education">Education</a>
-          </li> */}
           <li className="hover:text-[#999] transition-all delay-75">
             <a href="#tech">Tech</a>
           </li>
@@ -30,9 +27,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="md:hidden text-3xl" id="nav-md">
+      {/* <div className="md:hidden text-3xl" id="nav-md">
         &#8801;
-      </div>
+      </div> */}
     </div>
   );
 };
